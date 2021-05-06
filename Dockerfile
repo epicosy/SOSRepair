@@ -24,7 +24,7 @@ RUN apt-get update && \
                         curl \
                         build-essential \
                         bison \
-                        flex ssh
+                        flex ssh gdb
 ENV CXX=g++
 
 ###############################################################################
