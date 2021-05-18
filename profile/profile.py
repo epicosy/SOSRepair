@@ -136,7 +136,7 @@ class Profile:
                 if not res:
                     print "Run failed: %s" % pt
                     print "Res: %s" % str(res)
-                    raise Exception
+                    continue
                 lines = []
                 console_output = ''
                 with open(self.output_file, 'r') as f:
